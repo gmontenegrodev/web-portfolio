@@ -2,10 +2,50 @@
   background: url("../../assets/home-images/main-background.png") no-repeat;
   background-size: cover;
   height: 100%;
-  #scroll-down{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    margin-left: -40px;;
+  opacity: 0.7;
+}
+#top-section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  #main-text{
+    h1{
+      color: #fff;
+    }
+  }
+}
+#scroll-down{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -40px;;
+}
+// about me
+#about-me{
+  padding: 50px 0;
+  #profile-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  ul{
+    list-style-type: none;
+    li{
+      span{
+        background-color: green;
+        width: 40%;
+        display: inline-block;
+        padding: 5px 10px;
+      }
+      #skills-images{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 30px;
+        margin-top: 10px;
+      }
+    }
   }
 }
